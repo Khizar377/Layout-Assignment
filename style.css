@@ -116,6 +116,7 @@ a:hover {
     }
     .content {
         margin: 100px auto;
+        margin-bottom: 20px;
     }
     .baby1 {
         border-radius: 10px;
