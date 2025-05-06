@@ -38,6 +38,19 @@ a:hover {
     text-decoration: underline;
 }
 
+.color-box {
+    border: 1px solid #98cc42;
+    background-color: #98cc42;
+    border-radius: 25px;
+    width: 30%;
+    height: 85px;
+    position: absolute;
+    margin: 0 auto;
+    top: -6px;
+    left: 500px;
+    z-index: -100;
+}
+
 .content {
     width: 70%;
     margin: 80px auto;
@@ -122,5 +135,10 @@ a:hover {
     .chat img {
         bottom: 20px;
         right: 20px;
+    }
+    .color-box {
+        left: 100px;
+        height: 100px;
+        width: 50%;
     }
 }
